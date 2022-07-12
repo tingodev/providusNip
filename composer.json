@@ -1,0 +1,22 @@
+{
+    "name": "trillzglobal/providus_nip",
+    "description": "Fund Transfer Integration with Providus Bank. Providing Seamless Integration to Providus Fund transfer with NIBSS Instant Settlement system.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TrillzGlobal\\ProvidusNip\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael",
+            "email": "trillzglobal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.4.0",
+        "guzzlehttp/guzzle": ">=7.4.3"
+    }
+}
